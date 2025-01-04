@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #7f1208;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .logo-text h1 {
+    font-size: 22px;
+    margin: 0;
+    color: white;
+  }
+  
+  .logo-text p {
+    font-size: 12px;
+    margin: 0;
+    color: #f3cfcf;
+  }
+  
+  .nav-buttons {
+    display: flex; /* Align all items in a row */
+    gap: 10px; /* Add spacing between items */
+    align-items: center; /* Vertically center the buttons and icon */
+  }
+  
+  .nav-buttons button {
+    background-color: #d4b507;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0; /* Reset margin for consistent spacing */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: #7f1616;
+  }
+  
+  
+  #cartIcon {
+    display: flex; /* Ensures the cart icon behaves like a flex item */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #cartIcon img {
+    width: 70px; /* Adjusted icon size for consistency */
+    height: 70px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #cartIcon img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+  }
+
+  

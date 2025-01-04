@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="cart.css">
+  <script src="cart.js" defer></script>
+  <title>Your Cart</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <header id="header">
+    <h1>Your Cart</h1>
+  </header>
+
+  <main>
+    <!-- Cart items section -->
+    <section id="cartItemsContainer" class="cart-items-container">
+      <div id="cartItems" class="cart-items">
+        <!-- Example Item -->
+        <div class="cart-item">
+          <div class="item-details">
+            
+            <button class="remove-btn">Remove</button>
+          </div>
+        </div>
+        <!-- Repeat for other items -->
+      </div>
+    </section>
+
+    <!-- Cart Summary -->
+    <section class="cart-summary">
+      <h3>Cart Summary</h3>
+      <div class="summary-detail">
+        <span>Subtotal:</span>
+        <span id="subtotal">Rs. 0</span>
+      </div>
+      <div class="summary-detail">
+        <span>Order Discount:</span>
+        <span id="orderDiscount">Rs. 0</span>
+      </div>
+      <div class="summary-detail">
+        <span>Total:</span>
+        <span class="total-price">Rs. 0</span>
+      </div>
+      <button class="checkout-btn" id="checkoutBtn">Proceed to Checkout</button>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="footer">
+    <p>&copy; 2024 Your Company</p>
+  </footer>
+
+</body>
+</html>
