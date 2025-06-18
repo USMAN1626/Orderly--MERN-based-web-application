@@ -1,0 +1,240 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fa;
+    color: #000000;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #7f1208;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  /* Main Container */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+    gap: 20px;
+  }
+  
+  /* Order Details Section */
+  .order-details,
+  .checkout-summary {
+    background: white;
+    border: 1px solid #7f1208;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .order-details h2,
+  .checkout-summary h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #7f1208;
+  }
+  
+  /* Form Styling */
+  .order-details label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .order-details input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #7f1208;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .order-details input:focus {
+    outline: none;
+    border-color: #d4b507;
+    box-shadow: 0 0 5px rgba(230, 57, 70, 0.4);
+  }
+  
+  /* Checkout Summary */
+  .checkout-summary {
+    flex: 0.9;
+  }
+  
+  .checkout-summary h3 {
+    font-size: 1.3rem;
+    color: #131313;
+  }
+  
+  #checkoutItems {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .total-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  #totalPrice {
+    color: #7f1208;
+  }
+  
+  /* Finalize Order Button */
+  #finalizeOrderBtn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #7f1208;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #finalizeOrderBtn:hover {
+    background-color: #d4b507;
+  }
+  
+  /* Textarea Styling */
+textarea#orderNotes {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    resize: vertical; /* Allows vertical resizing */
+    box-sizing: border-box;
+    background-color: #fafafa;
+  }
+  
+  textarea#orderNotes:focus {
+    outline: none;
+    border-color: #7f1208;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Optional: Add spacing between textarea and other elements */
+  textarea#orderNotes + * {
+    margin-top: 15px;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .checkout-summary {
+      flex: 1;
+    }
+  }
+  
+  /* Order Summary Section */
+.order-summary {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  }
+  
+  .order-summary h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #7f1208;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .summary-table th,
+  .summary-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .summary-table th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+  }
+  
+  .summary-total-label {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .summary-table tfoot td {
+    font-size: 1.2rem;
+    color: #7f1208;
+  }
+  
+  /* Discount Section */
+  .discount-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #discountCode {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #applyDiscountBtn {
+    padding: 10px 15px;
+    background-color: #7f1208;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #applyDiscountBtn:hover {
+    background-color: #369048;
+  }
+  
+  /* Delivery Address */
+  .delivery-address {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #070707;
+  }
+  
+  .delivery-address h3 {
+    font-size: 1.2rem;
+    color: #7f1208;
+    margin-bottom: 10px;
+  }
+  

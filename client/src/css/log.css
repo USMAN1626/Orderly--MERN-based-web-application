@@ -1,0 +1,127 @@
+#customer-login-section {
+    margin: 50px auto 20px auto; /* Adds space from header and footer */
+    padding: 40px;
+    width: 100%;
+    max-width: 450px; /* Larger width for the signup form */
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    position: relative;
+}
+  
+  #customer-login-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #customer-login-section div {
+    margin-bottom: 15px;
+  }
+  
+  #customer-login-section label {
+    font-size: 16px;
+  }
+  
+  #customer-login-section input {
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#customer-login-section input:focus {
+    border-color: #7f1208; /* Red border on focus */
+    outline: none; /* Removes the default outline */
+}
+
+  
+  #customer-login-section button {
+    width: 100%;
+    padding: 20px;
+    background-color: #7f1208;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #customer-login-section button:hover {
+    background-color: #d4b507;
+  }
+
+  #customer-login-section form {
+    margin-bottom: 100px; /* Ensure there's space between the form and footer */
+}
+
+#header {
+    background-color: #7f1208;
+    color: #fff;
+    padding: 10px 20px; /* Increased padding for a small but noticeable header */
+    text-align: center;
+    font-size: 14px; /* Slightly larger font size for readability */
+    font-weight: bold;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+#footer {
+    background-color: #7f1208;
+    color: #fff;
+    text-align: center;
+    padding: 5px 20px; /* Reduced padding for a smaller footer */
+    font-size: 14px; /* Slightly smaller font size for footer */
+    margin-top: auto; /* Push footer to the bottom */
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Wrapper for Forgot Password Link */
+#forgot-password-link {
+  font-size: 14px;
+  color: #7f1208; /* Deep red matching the theme */
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Hover Effect */
+#forgot-password-link:hover {
+  color: #d4b507; /* Gold hover color */
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Focus Effect for Accessibility */
+#forgot-password-link:focus {
+  outline: 2px dashed #d4b507; /* Gold dashed outline for focus */
+  outline-offset: 2px;
+}
+
+/* Wrapper for Forgot Password Link */
+#sign-up {
+  font-size: 14px;
+  color: #7f1208; /* Deep red matching the theme */
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+/* Hover Effect */
+#sign-up:hover {
+  color: #d4b507; /* Gold hover color */
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Focus Effect for Accessibility */
+#sign-up:focus {
+  outline: 2px dashed #d4b507; /* Gold dashed outline for focus */
+  outline-offset: 2px;
+}

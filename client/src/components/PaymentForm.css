@@ -1,0 +1,45 @@
+.payment-form {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.payment-form .StripeElement {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.payment-form .StripeElement--focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.payment-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+    background-color: #0056b3;
+}
+
+.payment-form button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+} 

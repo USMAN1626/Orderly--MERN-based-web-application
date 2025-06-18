@@ -1,0 +1,40 @@
+/* client/src/App.css */
+
+/* General container padding to prevent content from touching edges */
+/* REMOVED: padding-left/right as Bootstrap's .container handles this */
+.container,
+.container-fluid {
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+}
+
+/* Adjust main content padding based on fixed header/footer height */
+/* This can also be applied inline in Main component or directly on pages */
+main {
+  /* min-height calculation needs to account for header (80px) + footer (approx 60px) */
+  min-height: calc(100vh - 140px);
+  /* Adjust based on actual header/footer heights */
+  padding-top: 80px;
+  /* Offset for fixed header */
+  padding-bottom: 60px;
+  /* Offset for fixed footer */
+}
+
+/* Responsive image styling for object-fit */
+.object-cover {
+  object-fit: cover;
+}
+
+/* Basic hover shadow for cards (can be achieved with Bootstrap shadow classes too) */
+/* Re-added if it was part of the problem. Bootstrap shadow-lg should be sufficient */
+
+/* Custom colors if needed (but we're aiming for Bootstrap defaults primarily) */
+/*
+:root {
+  --bs-primary: #007bff;
+  --bs-success: #28a745;
+  --bs-danger: #dc3545;
+  --bs-dark: #343a40;
+  --bs-light: #f8f9fa;
+}
+*/
