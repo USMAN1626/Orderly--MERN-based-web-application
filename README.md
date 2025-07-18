@@ -74,6 +74,7 @@ npm start             # Runs React app on http://localhost:3000
 ```
 
 🛠️ Technologies Used
+
 Backend: Node.js, Express, MongoDB, Mongoose, JWT
 
 Frontend: React, React Router, Context API or Redux, Axios
@@ -82,12 +83,10 @@ Others: dotenv, bcryptjs, nodemon
 
 ## 📸 Screenshots
 
-Add screenshots here to showcase your UI:
+Visit live link to check  UI:
 
 ```
-assets/screenshots/login.png
-assets/screenshots/home.png
-assets/screenshots/booking.png
+https://a-u-a-hotel-app.vercel.app
 ```
 
 ---
