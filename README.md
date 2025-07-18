@@ -1,6 +1,6 @@
 # 🏨 AUA Hotel App
 
-AUA Hotel App is a Flutter-based mobile application that allows users to browse hotel listings, book rooms, and manage their bookings and profile with ease.
+AUA Hotel App is a MER-based mobile application that allows users to browse hotel listings, book rooms, and manage their bookings and profile with ease.
 
 ---
 
@@ -18,37 +18,67 @@ AUA Hotel App is a Flutter-based mobile application that allows users to browse 
 ## 📂 Project Structure
 
 ```
-lib/
-├── main.dart                   # Entry point
-├── HomePage.dart               # Main home screen
-├── LoginPage.dart              # User login screen
-├── SignupPage.dart             # User signup screen
-├── HotelBookingPage.dart       # Room details page
-├── BookingPage.dart            # Booking form screen
-├── bookingconfirm.dart         # Booking confirmation
-├── PaymentPage.dart            # Payment method screen
-├── ProfilePage.dart            # User profile
+/mern-hotel-app
+│
+├── backend/
+│   ├── config/               # DB config, env variables
+│   ├── controllers/          # Logic for users, rooms, bookings
+│   ├── models/               # Mongoose schemas: User, Room, Booking
+│   ├── routes/               # Express routes: /api/users, /api/rooms, /api/bookings
+│   ├── middleware/           # Auth middleware, error handling
+│   └── server.js             # Express app entry point
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/       # UI components: Navbar, RoomCard, BookingForm
+│   │   ├── pages/            # Pages: Home, Login, Signup, RoomDetails, Bookings, Profile
+│   │   ├── context/          # React context or Redux store
+│   │   ├── utils/            # Helper functions, API calls
+│   │   └── App.js            # Main app component with routing
+│   └── package.json
+│
+└── README.md
+
 ```
 ---
 
 ## 🚀 Getting Started
 
 ### ✅ Prerequisites
-- [Flutter SDK](https://docs.flutter.dev/get-started/install)
-- Android Studio or VS Code with Flutter extension
 
-### 🔧 Installation
+- [Node.js](https://nodejs.org/en/download/)
+- [MongoDB](https://www.mongodb.com/try/download/community) (local or Atlas)
+- [npm](https://www.npmjs.com/get-npm) or [yarn](https://yarnpkg.com/getting-started/install)
 
-```bash
-git clone https://github.com/USMAN1626/a-u-a-hotel-app.git
-cd a-u-a-hotel-app
-flutter pub get
-flutter run
-```
+### Backend Setup
 
----
+``bash
+cd backend
+npm install
+npm run dev           # Starts server with nodemon
 
-## 📸 Screenshots (Optional)
+now
+Create .env file in backend/ with:
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
+
+Frontend Setup
+
+cd frontend
+npm install
+npm start             # Runs React app on http://localhost:3000
+
+
+🛠️ Technologies Used
+Backend: Node.js, Express, MongoDB, Mongoose, JWT
+
+Frontend: React, React Router, Context API or Redux, Axios
+
+Others: dotenv, bcryptjs, nodemon
+
+## 📸 Screenshots
 
 Add screenshots here to showcase your UI:
 
@@ -60,15 +90,7 @@ assets/screenshots/booking.png
 
 ---
 
-## 🛠️ TODOs / Improvements
 
-- [ ] Add Firebase authentication
-- [ ] Add state management (Provider, Riverpod, etc.)
-- [ ] Store booking data using Firebase/SQLite
-- [ ] Improve UI consistency and responsiveness
-- [ ] Add navigation drawer or bottom nav bar
-
----
 
 ## 👤 Author
 
