@@ -8,9 +8,7 @@ AUA Hotel App is a MER-based mobile application that allows users to browse hote
 
 Visit live link to check  UI:
 
-```
 https://a-u-a-hotel-app.vercel.app
-```
 
 ---
 
