@@ -1,6 +1,6 @@
-# 🏨 Orderly MERN Based App
+# 🏨 Orderly WEB App
 
-AUA Hotel App is a MER-based mobile application that allows users to browse hotel listings, book rooms, and manage their bookings and profile with ease.
+Orderly App is a MERN-based web application that allows users to browse hotel listings, book rooms, and manage their bookings and profile with ease.
 
 ---
 
