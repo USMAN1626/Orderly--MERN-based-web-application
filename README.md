@@ -4,6 +4,17 @@ AUA Hotel App is a MER-based mobile application that allows users to browse hote
 
 ---
 
+## 📸 Deployment
+
+Visit live link to check  UI:
+
+```
+https://a-u-a-hotel-app.vercel.app
+```
+
+---
+
+
 ## 📱 Features
 
 - 🏠 Home screen with available rooms
@@ -80,17 +91,6 @@ Backend: Node.js, Express, MongoDB, Mongoose, JWT
 Frontend: React, React Router, Context API or Redux, Axios
 
 Others: dotenv, bcryptjs, nodemon
-
-## 📸 Screenshots
-
-Visit live link to check  UI:
-
-```
-https://a-u-a-hotel-app.vercel.app
-```
-
----
-
 
 
 ## 👤 Author
