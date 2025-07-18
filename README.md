@@ -1,4 +1,4 @@
-# 🏨 AUA Hotel App
+# 🏨 Orderly MERn Based App
 
 AUA Hotel App is a MER-based mobile application that allows users to browse hotel listings, book rooms, and manage their bookings and profile with ease.
 
