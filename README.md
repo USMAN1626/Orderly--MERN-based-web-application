@@ -53,7 +53,7 @@ AUA Hotel App is a MER-based mobile application that allows users to browse hote
 
 ### Backend Setup
 
-``bash
+```bash
 cd backend
 npm install
 npm run dev           # Starts server with nodemon
@@ -63,6 +63,7 @@ Create .env file in backend/ with:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
+```
 
 Frontend Setup
 
