@@ -65,12 +65,13 @@ JWT_SECRET=your_jwt_secret
 PORT=5000
 ```
 
-Frontend Setup
-
+## Frontend Setup
+```bash
 cd frontend
 npm install
 npm start             # Runs React app on http://localhost:3000
 
+```
 
 🛠️ Technologies Used
 Backend: Node.js, Express, MongoDB, Mongoose, JWT
